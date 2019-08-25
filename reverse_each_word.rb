@@ -1,7 +1,8 @@
 def reverse_each_word(string)
   new = string.split(/ /)
   ugh = []
-  for x in 0..new.length-1 do 
+  for x in 0..new.length-1 do
+    puts new[x]
     ugh.push(new[x].reverse)
   end
   p ugh
